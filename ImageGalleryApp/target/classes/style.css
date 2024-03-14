@@ -1,0 +1,33 @@
+.root {
+    -fx-background-color: #f0f0f0; /* Set background color for the root container */
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white; /* Set text color to white */
+    -fx-font-size: 14px; /* Set font size */
+    -fx-padding: 8px 16px; /* Set padding */
+    -fx-border-radius: 4px; /* Set border radius */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+.thumbnail-grid {
+    -fx-padding: 20px; /* Add some padding around the grid */
+}
+
+.thumbnail {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 0); /* Add drop shadow effect */
+}
+
+.full-image {
+    -fx-padding: 20px; /* Add some padding around the full image */
+}
+
+.navigation-buttons {
+    -fx-spacing: 10px; /* Set spacing between buttons */
+}
+
+/* Customize more CSS properties as needed */
